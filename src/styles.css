@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body{
+ 
+    /* opacity: 0.5 !important; */
+    /* background-color: #E1E3E8; */
+    /* background: linear-gradient( #295B3B, #589470, #9B9957);    */
+    /* background:linear-gradient(#e66465, #9198e5); */
+    width: 100vw;
+    height: 100vh;
+    /* background: linear-gradient(#2C154E, #101836); */
+    padding: 50px;
+}
+
+.foto-fundo{
+    opacity: .2;    
+}
+
+.pergunta{
+    padding: 20px;  
+}
+
+.btn-next{
+    background: linear-gradient(to right, #3A0CDE, #AA39D3);
+    border-color: #AA39D3;
+}
+
+.img-thumbnail{
+    height: 150px;
+    width: 150px;
+}
+
+.btn-light:focus{
+    background: linear-gradient(#2C154E, #101836);
+    color: white;
+}
